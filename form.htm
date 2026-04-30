@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+<form>
+    <fieldset>
+        <legend>Student &nbsp; &nbsp; Form</legend>
+
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter your name">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> others
+        <br><br>
+
+        <!-- New: Subjects checkboxes for Class 11 -->
+        <label>Subjects (Class 11):</label><br>
+        <input type="checkbox" name="subject" value="Math"> Mathematics
+        <input type="checkbox" name="subject" value="Physics"> Physics
+        <input type="checkbox" name="subject" value="Chemistry"> Chemistry
+        <input type="checkbox" name="subject" value="Biology"> Biology
+        <input type="checkbox" name="subject" value="Computer Science"> Computer Science
+        <input type="checkbox" name="subject" value="English"> English
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="number" name="phone">
+        <br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="5" cols="60"></textarea>
+        <br><br>
+
+        <label>City:</label>
+        <select>
+            <option>no options</option>
+            <option>Kolkata</option>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </fieldset>
+</form>
+
+</body>
+</html>
